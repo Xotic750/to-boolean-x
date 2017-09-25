@@ -23,7 +23,7 @@
 ## to-boolean-x
 Converts argument to a value of type Boolean.
 
-**Version**: 1.0.0  
+**Version**: 1.0.1  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
@@ -42,4 +42,9 @@ The abstract operation ToBoolean converts argument to a value of type Boolean.
 **Example**  
 ```js
 var toBoolean = require('to-boolean-x');
+
+toBoolean(null); // false
+toBoolean(''); // false
+toBoolean(1); // true
+toBoolean('0'); // true
 ```

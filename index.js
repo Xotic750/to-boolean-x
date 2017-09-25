@@ -1,6 +1,6 @@
 /**
  * @file Converts argument to a value of type Boolean.
- * @version 1.0.0
+ * @version 1.0.1
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -16,6 +16,11 @@
  * @returns {boolean} 'true' if value is truthy; otherwise 'false'.
  * @example
  * var toBoolean = require('to-boolean-x');
+ *
+ * toBoolean(null); // false
+ * toBoolean(''); // false
+ * toBoolean(1); // true
+ * toBoolean('0'); // true
  */
 module.exports = function toBoolean(value) {
   return !!value;
