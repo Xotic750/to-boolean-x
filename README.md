@@ -21,30 +21,29 @@
 <a name="module_to-boolean-x"></a>
 
 ## to-boolean-x
+
 Converts argument to a value of type Boolean.
 
-**Version**: 1.0.3  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_to-boolean-x--module.exports"></a>
 
 ### `module.exports(value)` ⇒ <code>boolean</code> ⏏
+
 The abstract operation ToBoolean converts argument to a value of type Boolean.
 
 **Kind**: Exported function  
-**Returns**: <code>boolean</code> - 'true' if value is truthy; otherwise 'false'.  
+**Returns**: <code>boolean</code> - 'true' if value is truthy; otherwise 'false'.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param | Type            | Description                |
+| ----- | --------------- | -------------------------- |
 | value | <code>\*</code> | The value to be converted. |
 
-**Example**  
-```js
-var toBoolean = require('to-boolean-x');
+**Example**
 
-toBoolean(null); // false
-toBoolean(''); // false
-toBoolean(1); // true
-toBoolean('0'); // true
+```js
+import toBoolean from 'to-boolean-x';
+
+console.log(toBoolean(null)); // false
+console.log(toBoolean('')); // false
+console.log(toBoolean(1)); // true
+console.log(toBoolean('0')); // true
 ```
