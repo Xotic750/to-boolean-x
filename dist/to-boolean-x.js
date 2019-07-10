@@ -1,13 +1,13 @@
 /*!
 {
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-10T15:50:54.142Z",
+  "date": "2019-07-10T15:56:42.710Z",
   "describe": "",
   "description": "Converts argument to a value of type Boolean.",
   "file": "to-boolean-x.js",
-  "hash": "3def97b81800d32bce60",
+  "hash": "79af6cdebfb9565553c3",
   "license": "MIT",
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -137,7 +137,7 @@ exports.default = toBoolean;
 /**
  * The abstract operation ToBoolean converts argument to a value of type Boolean.
  *
- * @param {*} value - The value to be converted.
+ * @param {*} [value] - The value to be converted.
  * @returns {boolean} 'true' if value is truthy; otherwise 'false'.
  */
 function toBoolean(value) {
