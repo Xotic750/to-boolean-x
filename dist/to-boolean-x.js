@@ -1,13 +1,14 @@
 /*!
 {
+  "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-10T15:56:42.710Z",
+  "date": "2019-07-12T12:55:35.309Z",
   "describe": "",
   "description": "Converts argument to a value of type Boolean.",
   "file": "to-boolean-x.js",
-  "hash": "79af6cdebfb9565553c3",
+  "hash": "1111f292cf5bca91c952",
   "license": "MIT",
-  "version": "2.0.1"
+  "version": "2.0.2"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -124,16 +125,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = toBoolean;
-
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return toBoolean; });
 /**
  * The abstract operation ToBoolean converts argument to a value of type Boolean.
  *
@@ -143,6 +139,8 @@ exports.default = toBoolean;
 function toBoolean(value) {
   return !!value;
 }
+
+
 
 /***/ })
 /******/ ]);
