@@ -2,11 +2,11 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-16T20:55:12.979Z",
+  "date": "2019-07-17T12:58:04.297Z",
   "describe": "",
   "description": "Converts argument to a value of type Boolean.",
   "file": "to-boolean-x.js",
-  "hash": "1111f292cf5bca91c952",
+  "hash": "2f26c083c7734e1c706f",
   "license": "MIT",
   "version": "2.0.8"
 }
@@ -129,16 +129,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return toBoolean; });
 /**
  * The abstract operation ToBoolean converts argument to a value of type Boolean.
  *
  * @param {*} [value] - The value to be converted.
  * @returns {boolean} 'true' if value is truthy; otherwise 'false'.
  */
-function toBoolean(value) {
+var toBoolean = function toBoolean(value) {
   return !!value;
-}
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (toBoolean);
 
 
 
