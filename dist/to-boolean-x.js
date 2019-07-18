@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-18T15:53:45.476Z",
+  "date": "2019-07-18T16:31:11.401Z",
   "describe": "",
   "description": "Converts argument to a value of type Boolean.",
   "file": "to-boolean-x.js",
   "hash": "2f26c083c7734e1c706f",
   "license": "MIT",
-  "version": "2.0.12"
+  "version": "2.0.13"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
