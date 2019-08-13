@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-08-13T10:56:55.099Z",
+  "date": "2019-08-13T12:40:28.387Z",
   "describe": "",
   "description": "Converts argument to a value of type Boolean.",
   "file": "to-boolean-x.js",
